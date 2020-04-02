@@ -1,0 +1,14 @@
+$theme-colors: (
+    "primary":    #1abc9c,
+    "secondary":  #003e6b,
+);
+$btn-border-radius: 30px;
+$grid-gutter-width: 15px;
+$border-radius: 1rem;
+$border-radius-lg: 1.5rem;
+$border-radius-sm: .75rem;
+$input-btn-padding-y:.25rem;
+$input-btn-padding-x: .5rem;
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+

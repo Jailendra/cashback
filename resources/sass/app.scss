@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900&display=swap");
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'bootstrap.min';
+
+@import 'owl.carousel.min';
+
+
+
+@import 'all.min';
+
+@import 'style';
+
+@import 'custom';
+
+
+.loader {
+    background-image: url(/../images/ajax-loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.couponCodesInner .couponLogo {
+    height: auto;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.active {
+    background-color: #0473c4;
+    color: #FFF;
+}
+
+.deals-btn {
+    font-size: 10px;
+}
+
+.deals-btn:hover {
+    background-color: #D5D8DC;
+    color: #000;
+}
+
+.loading .img, .loading .stripe {
+    animation: hintloading 2s ease-in-out 0s infinite reverse;
+    -webkit-animation: hintloading 2s ease-in-out 0s infinite reverse;
+}
+
+@keyframes hintloading {
+  0% { opacity: 0.5; }
+  50%  { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+@-webkit-keyframes hintloading {
+  0% { opacity: 0.5; }
+  50%  { opacity: 1; }
+  100% { opacity: 0.5; }
+}

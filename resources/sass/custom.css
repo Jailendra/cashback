@@ -1,0 +1,168 @@
+
+.StripeElement {
+    box-sizing: border-box;
+
+    height: 40px;
+
+    padding: 10px 12px;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+    }
+
+    .StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+    }
+
+    .StripeElement--invalid {
+    border-color: #fa755a;
+    }
+
+    .StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+    }
+
+
+
+    .stripeGateway {
+    margin-bottom: 1rem;
+    }
+    #card-element {
+
+    border: 1px solid #777777;
+    height: 42px;
+    }
+    .stripeGateway .form-group {
+    margin-bottom: 0 !important;
+    }
+    .carousel-caption-content::after {
+        z-index: -1;
+    }
+
+.registerSetting {
+    margin-bottom: 30px;
+  }
+  .registerSetting h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #32b99e;
+  }
+  .registerSetting .registerSettingInner {
+    -webkit-box-shadow: 0 1px 4px 1px #cbcacd;
+    box-shadow: 0 1px 4px 1px #cbcacd;
+  }
+  .registerSetting .registerSettingInner .form-control {
+    border-radius: 0.25rem;
+    height: 42px;
+    border: 1px solid #777777;
+  }
+  .registerSetting .registerSettingInner .form-group {
+    margin-bottom: 1.75rem;
+  }
+  .registerSetting .registerSettingInner .form-row, .registerSetting .registerSettingInner .row {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+  .registerSetting .registerSettingInner .form-row > [class*=col-], .registerSetting .registerSettingInner .row > [class*=col-] {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .registerSetting .registerSettingInner .form-row > [class*=col-] .row, .registerSetting .registerSettingInner .row > [class*=col-] .row {
+    margin-right: -7.5px;
+    margin-left: -7.5px;
+  }
+  .registerSetting .registerSettingInner .form-row > [class*=col-] .row > [class*=col-], .registerSetting .registerSettingInner .row > [class*=col-] .row > [class*=col-] {
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+  }
+  .registerSetting .registerSettingInner h2 {
+    border-bottom: solid 2px #9e9e9e;
+    margin: 0;
+    padding: 10px 20px;
+  }
+  .registerSetting .registerSettingInner .profileInner {
+    padding: 30px;
+  }
+  .registerSetting .registerSettingInner h2 {
+    border-bottom: solid 2px #003e6b;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #003e6b;
+  }
+  .registerSetting .registerSettingInner .media img {
+    max-width: 60px;
+  }
+  .registerSetting .registerSettingInner .media h5 img {
+    max-width: 18px;
+  }
+
+  
+  /* OVERRIDE GOOGLE TRANSLATE WIDGET CSS BEGIN */
+  div#google_translate_element div.goog-te-gadget-simple {
+      border: none;
+      background-color: transparent;
+      /*background-color: #17548d;*/ /*#e3e3ff*/
+  }
+
+  div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value:hover {
+      text-decoration: none;
+  }
+
+  div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span {
+      color: #aaa;
+  }
+
+  div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span:hover {
+      color: black;
+  }
+  
+  .goog-te-gadget-icon {
+      display: none !important;
+      /*background: url("url for the icon") 0 0 no-repeat !important;*/
+  }
+
+  /* Remove the down arrow */
+  /* when dropdown open */
+  div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span[style="color: rgb(213, 213, 213);"] {
+      display: none;
+  }
+  /* after clicked/touched */
+  div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span[style="color: rgb(118, 118, 118);"] {
+      display: none;
+  }
+  /* on page load (not yet touched or clicked) */
+  div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span[style="color: rgb(155, 155, 155);"] {
+      display: none;
+  }
+
+  /* Remove span with left border line | (next to the arrow) in Chrome & Firefox */
+  div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span[style="border-left: 1px solid rgb(187, 187, 187);"] {
+      display: none;
+  }
+  /* Remove span with left border line | (next to the arrow) in Edge & IE11 */
+  div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span[style="border-left-color: rgb(187, 187, 187); border-left-width: 1px; border-left-style: solid;"] {
+      display: none;
+  }
+  /* HIDE the google translate toolbar */
+  .goog-te-banner-frame.skiptranslate {
+      display: none !important;
+  }
+  body {
+      top: 0px !important; 
+  }
+  /* OVERRIDE GOOGLE TRANSLATE WIDGET CSS END */
+
+@media screen and (max-width: 767px){
+.stripeGateway .form-group {
+margin-bottom: 1rem !important;
+}
+}
